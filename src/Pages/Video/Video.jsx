@@ -1,10 +1,11 @@
 import React from 'react'
 import './video.css'
-import Sidebar from '../../components/Sidebar/Sidebar'
+
+import PlayVideo from '../../components/PlayVideo/PlayVideo'
 const Video = () => {
   return (
-    <div>
-      <Sidebar/>
+    <div className='play-container'>
+     <PlayVideo/>
     </div>
   )
 }
